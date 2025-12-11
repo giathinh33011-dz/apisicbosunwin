@@ -1,0 +1,24 @@
+{
+  "name": "sicbo-sunwin-ai-server",
+  "version": "1.0.0",
+  "description": "API Server for Sicbo Sunwin AI Predictor using Fastify.",
+  "main": "sicbosunwin.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sicbosunwin.js",
+    "dev": "node sicbosunwin.js"
+  },
+  "keywords": [
+    "sicbo",
+    "fastify",
+    "ai",
+    "prediction"
+  ],
+  "author": "GiaThinhzZz",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "fastify": "^4.25.2",
+    "node-fetch": "^3.3.2" 
+  }
+}
